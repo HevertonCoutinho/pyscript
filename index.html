@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
     <py-env>
-        numpy
-        matplotlib
+        - numpy
+        - matplotlib
     </py-env>
 </head>
 
@@ -23,8 +23,8 @@
 
         y = np.random.randn(100)
 
-        fig, ax = plt.subplot()
-        ax.scater(x,y)
+        fig, ax = plt.subplots()
+        ax.scatter(x,y)
         fig
 
     </py-script> 
